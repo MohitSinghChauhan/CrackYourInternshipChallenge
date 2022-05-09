@@ -85,6 +85,8 @@ public:
             {
                 swap(nums[mid], nums[hi]);
                 hi--;
+                //! We are here not incrementing mid pointer index i.e, mid++ bcoz if we do that so then previous index of mid pointer will remian unprocessed
+                //! suppose we swap a[hi]=0 to a[mid]=2 then 0 at a[mid] will remain unprocessed (remain after low pointer) bcoz mid pointer move 1 index forward
             }
         }
     }
