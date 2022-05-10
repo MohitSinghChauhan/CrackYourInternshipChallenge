@@ -57,6 +57,7 @@ public:
             {
                 lo++;
             }
+            //! Important - need to think more
             else
             {
                 hi--;
